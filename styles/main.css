@@ -45,3 +45,8 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+.logo{
+  width: 250px;
+  max-width: 100%;
+  padding-bottom: 20px;
+}

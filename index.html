@@ -31,7 +31,7 @@
   		</a-assets>
   			  <a-videosphere src="#v-360"></a-videosphere>
 
-		  <!-- <a-sky radius="500" src="#sky"></a-sky> -->
+
 			  <a-video look-at="[camera]" src="#plano" width="16" height="9" position="0 0 -10"></a-video>
 
 
@@ -44,7 +44,16 @@
             event-set__2="_event: mouseup; scale: 1.2 1.2 1"
             event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
             event-set__4="_event: mouseleave; scale: 1 1 1"
-            sound="on: click; src: #click-sound"></a-entity>
+            sound="on: click; src: #click-sound">
+              
+              <a-entity position="0 -0.65 0" 
+  geometry="primitive: plane; width: 2; height: auto"
+  material="color: #FDDB01"
+  text="color:black;align:center; value: Mirame para pausar el video de fondo."></a-entity>
+           
+
+
+            </a-entity>
 
 
 
@@ -56,7 +65,18 @@
             event-set__2="_event: mouseup; scale: 1.2 1.2 1"
             event-set__3="_event: mouseenter; scale: 1.2 1.2 1"
             event-set__4="_event: mouseleave; scale: 1 1 1"
-            sound="on: click; src: #click-sound"></a-entity>
+            sound="on: click; src: #click-sound">
+              
+
+              <a-entity position="0 -0.65 0" 
+  geometry="primitive: plane; width: 2; height: auto"
+  material="color: #6B1D03"
+  text="color:#FFDA00; align:center; value:Mirame para reaundar el video de fondo."></a-entity>
+             
+
+
+
+            </a-entity>
 
 
 		 <!-- Camera + cursor. -->
@@ -74,7 +94,7 @@
 	<div class="container">
 
      <section class="jumbotron text-center">
-      <h1>Parques Nacionales</h1>
+      <img class="logo" src="images/apn.png">
       <p class="">Esto es un ejemplo de la entrada a un parque. </p> 
       <p>Podremos ver fotografia 360, objetos 3d y videos incrustados.</p>
       <p>
