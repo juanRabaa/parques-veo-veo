@@ -1,3 +1,5 @@
+var v360 = document.getElementById('v-360');
+	v360.currentTime = 5;
 $('#enter-vr').on('click',function(e){
 	e.preventDefault();
 	$('.container').remove();
